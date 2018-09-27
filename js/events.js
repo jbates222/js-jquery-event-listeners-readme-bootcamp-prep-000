@@ -5,6 +5,7 @@ $(document).ready(function(){
 getIt();
 frameIt();
 submitIt();
+pressIt();
 
 });
 
@@ -23,5 +24,10 @@ function submitIt() {
   if (alert("Your form is going to be submitted now.")) {
     $("form").on("submit", function() {
     });
+  }
+}
+function pressIt() {
+  $(document).on('keydown', function(key) {
+    if (key.which == )
   }
 }
