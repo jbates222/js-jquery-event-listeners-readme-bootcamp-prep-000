@@ -4,6 +4,8 @@ $(document).ready(function(){
 
 getIt();
 frameIt();
+submitIt();
+
 });
 
 function getIt() {
@@ -16,4 +18,7 @@ function frameIt() {
     $(this).addClass("tasty");
     $(this).css('border', "solid 2px red");
   });
+}
+function submitIt() {
+  
 }
